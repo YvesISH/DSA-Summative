@@ -128,7 +128,7 @@ long getFileSize(const char* filename) {
 }
 
 int main() {
-    const char* filename = "recommendation.txt";
+    const char* filename = "letter.txt";
 
     // Get file size before compression
     long originalSize = getFileSize(filename);
